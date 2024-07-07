@@ -22,7 +22,7 @@ const start = async () => {
         console.error(error);
     });
 
-    db.once('open', () => console.log('Connected to pereba fut database'));
+    db.once('open', () => console.log('Connected to perebas fut database'));
 
     const optionsObject = {
         port: 3333,
